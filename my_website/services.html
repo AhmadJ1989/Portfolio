@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title id="page-title">Services | My Website</title>
+    <meta name="description" content="AI development services for product teams." id="page-description" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="services">
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="index.html" data-i18n-html="logo">My<span>Website</span></a>
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+          <button class="lang-button" type="button" data-lang="de">DE</button>
+          <button class="lang-button" type="button" data-lang="ar">AR</button>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only" data-i18n="nav.toggle">Open menu</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="services.html" class="active" data-i18n="nav.services">Services</a>
+          <a href="projects.html" data-i18n="nav.projects">Projects</a>
+          <a href="contact.html" class="cta" data-i18n="nav.contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+          <h1 data-i18n="services.title">Strategy, engineering, and design in one place.</h1>
+          <p class="lead" data-i18n="services.lead">
+            Pick a focused engagement or combine services for a full end-to-end AI delivery.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid two">
+          <article class="feature">
+            <h3 data-i18n="services.card1.title">AI Strategy & Roadmap</h3>
+            <p data-i18n="services.card1.body">
+              Align leadership on AI priorities, data readiness, and ROI. Outcome: a clear, ranked
+              roadmap with success metrics.
+            </p>
+            <ul>
+              <li data-i18n="services.card1.list1">Stakeholder workshops</li>
+              <li data-i18n="services.card1.list2">Use-case prioritization</li>
+              <li data-i18n="services.card1.list3">Risk & compliance review</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="services.card2.title">ML System Build</h3>
+            <p data-i18n="services.card2.body">
+              Design, train, and deploy models with monitoring, evaluation, and retraining
+              workflows.
+            </p>
+            <ul>
+              <li data-i18n="services.card2.list1">Data pipelines</li>
+              <li data-i18n="services.card2.list2">Model training & tuning</li>
+              <li data-i18n="services.card2.list3">MLOps dashboards</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="services.card3.title">AI Product MVP</h3>
+            <p data-i18n="services.card3.body">
+              Ship a functional prototype or MVP that users can test within weeks. Includes UX and
+              full-stack build.
+            </p>
+            <ul>
+              <li data-i18n="services.card3.list1">User research & UX</li>
+              <li data-i18n="services.card3.list2">Front-end + API build</li>
+              <li data-i18n="services.card3.list3">Analytics & feedback loop</li>
+            </ul>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="services.card4.title">Optimization & Scaling</h3>
+            <p data-i18n="services.card4.body">
+              Improve accuracy, performance, and infrastructure costs for existing AI solutions.
+            </p>
+            <ul>
+              <li data-i18n="services.card4.list1">Model performance audit</li>
+              <li data-i18n="services.card4.list2">Latency & cost optimization</li>
+              <li data-i18n="services.card4.list3">Production reliability</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section highlight">
+        <div class="section-header">
+          <h2 data-i18n="services.models.title">Engagement models</h2>
+          <p data-i18n="services.models.subtitle">Choose the right collaboration style for your team.</p>
+        </div>
+        <div class="grid three">
+          <article class="step">
+            <h3 data-i18n="services.models.item1.title">Discovery Sprint</h3>
+            <p data-i18n="services.models.item1.body">1-2 weeks focused on use cases, data, and a PoC.</p>
+          </article>
+          <article class="step">
+            <h3 data-i18n="services.models.item2.title">Product Build</h3>
+            <p data-i18n="services.models.item2.body">6-12 weeks for full MVP delivery and launch.</p>
+          </article>
+          <article class="step">
+            <h3 data-i18n="services.models.item3.title">Retainer</h3>
+            <p data-i18n="services.models.item3.body">Ongoing AI advisory, iteration, and optimization.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <h3 data-i18n="footer.title">Let’s build your AI advantage</h3>
+        <p data-i18n="footer.body">Available for new projects starting next month.</p>
+      </div>
+      <div class="footer-actions">
+        <a href="contact.html" class="button primary" data-i18n="footer.ctaPrimary">
+          Schedule a Call
+        </a>
+        <a href="mailto:hello@mywebsite.com" class="button ghost">hello@mywebsite.com</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

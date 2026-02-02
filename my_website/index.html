@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title id="page-title">AI Developer Landing Page | My Website</title>
+    <meta
+      name="description"
+      content="Professional AI developer landing page with services, projects, and contact."
+      id="page-description"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="index">
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="index.html" data-i18n-html="logo">My<span>Website</span></a>
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+          <button class="lang-button" type="button" data-lang="de">DE</button>
+          <button class="lang-button" type="button" data-lang="ar">AR</button>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only" data-i18n="nav.toggle">Open menu</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="active" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="projects.html" data-i18n="nav.projects">Projects</a>
+          <a href="contact.html" class="cta" data-i18n="nav.contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="home.eyebrow">AI Developer · Product Builder</p>
+          <h1 data-i18n="home.title">Build intelligent products that grow your business.</h1>
+          <p class="lead" data-i18n="home.lead">
+            I design and ship AI-powered web experiences, automation pipelines, and data-driven
+            products that turn ideas into measurable results.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="button primary" data-i18n="home.ctaPrimary">
+              View Projects
+            </a>
+            <a href="contact.html" class="button ghost" data-i18n="home.ctaSecondary">
+              Book a Call
+            </a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <h3 data-i18n="home.metric1.value">7+</h3>
+              <p data-i18n="home.metric1.label">Years in AI & ML</p>
+            </div>
+            <div>
+              <h3 data-i18n="home.metric2.value">20+</h3>
+              <p data-i18n="home.metric2.label">Products shipped</p>
+            </div>
+            <div>
+              <h3 data-i18n="home.metric3.value">98%</h3>
+              <p data-i18n="home.metric3.label">Client satisfaction</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h2 data-i18n="home.sprint.title">AI Strategy Sprint</h2>
+            <p data-i18n="home.sprint.body">
+              A focused 10-day sprint to identify high-impact AI opportunities, validate data
+              readiness, and deliver a prototype roadmap.
+            </p>
+            <ul>
+              <li data-i18n="home.sprint.list1">Opportunity discovery workshop</li>
+              <li data-i18n="home.sprint.list2">Rapid PoC with real data</li>
+              <li data-i18n="home.sprint.list3">Implementation blueprint</li>
+            </ul>
+            <a href="contact.html" class="button primary" data-i18n="home.sprint.cta">
+              Start the Sprint
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight">
+        <div class="section-header">
+          <h2 data-i18n="home.trust.title">Trusted by forward-thinking teams</h2>
+          <p data-i18n="home.trust.body">
+            Delivering AI solutions for startups, enterprises, and agencies.
+          </p>
+        </div>
+        <div class="logos">
+          <span>NovaTech</span>
+          <span>Quantly</span>
+          <span>Visionary Labs</span>
+          <span>Orbitix</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 data-i18n="home.build.title">What I can build for you</h2>
+          <p data-i18n="home.build.body">End-to-end services covering strategy, engineering, and design.</p>
+        </div>
+        <div class="grid three">
+          <article class="feature">
+            <h3 data-i18n="home.build.card1.title">AI Product Design</h3>
+            <p data-i18n="home.build.card1.body">
+              Translate business goals into AI-ready product requirements, user journeys, and
+              success metrics.
+            </p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="home.build.card2.title">ML Engineering</h3>
+            <p data-i18n="home.build.card2.body">
+              Build scalable data pipelines, model training workflows, and evaluation systems for
+              reliable deployment.
+            </p>
+          </article>
+          <article class="feature">
+            <h3 data-i18n="home.build.card3.title">Full-Stack Delivery</h3>
+            <p data-i18n="home.build.card3.body">
+              Ship production-ready web apps with modern front-end, secure APIs, and analytics
+              dashboards.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gradient">
+        <div class="section-header">
+          <h2 data-i18n="home.case.title">Featured case study</h2>
+          <p data-i18n="home.case.subtitle">How an AI demand forecast cut inventory costs by 32%.</p>
+        </div>
+        <div class="case-study">
+          <div>
+            <h3 data-i18n="home.case.project">Demand Forecast Engine</h3>
+            <p data-i18n="home.case.body">
+              Built a forecasting system with multivariate time series models, automated data
+              ingestion, and a real-time dashboard for supply chain teams.
+            </p>
+            <ul>
+              <li data-i18n="home.case.list1">Reduced stockouts by 18%</li>
+              <li data-i18n="home.case.list2">Improved forecast accuracy to 91%</li>
+              <li data-i18n="home.case.list3">Integrated with ERP in 6 weeks</li>
+            </ul>
+          </div>
+          <div class="stats">
+            <div>
+              <span data-i18n="home.case.stat1.value">32%</span>
+              <p data-i18n="home.case.stat1.label">Cost reduction</p>
+            </div>
+            <div>
+              <span data-i18n="home.case.stat2.value">6 weeks</span>
+              <p data-i18n="home.case.stat2.label">Time to deliver</p>
+            </div>
+            <div>
+              <span data-i18n="home.case.stat3.value">24/7</span>
+              <p data-i18n="home.case.stat3.label">Monitoring & alerts</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2 data-i18n="home.process.title">Work with me</h2>
+          <p data-i18n="home.process.body">A clear, structured delivery process built for speed and quality.</p>
+        </div>
+        <div class="grid three">
+          <article class="step">
+            <span data-i18n="home.process.step1.number">01</span>
+            <h3 data-i18n="home.process.step1.title">Discover</h3>
+            <p data-i18n="home.process.step1.body">Align on goals, stakeholders, and success metrics.</p>
+          </article>
+          <article class="step">
+            <span data-i18n="home.process.step2.number">02</span>
+            <h3 data-i18n="home.process.step2.title">Design</h3>
+            <p data-i18n="home.process.step2.body">Prototype the AI workflow, architecture, and UX.</p>
+          </article>
+          <article class="step">
+            <span data-i18n="home.process.step3.number">03</span>
+            <h3 data-i18n="home.process.step3.title">Deliver</h3>
+            <p data-i18n="home.process.step3.body">Ship, monitor, and iterate with analytics.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <h3 data-i18n="footer.title">Let’s build your AI advantage</h3>
+        <p data-i18n="footer.body">Available for new projects starting next month.</p>
+      </div>
+      <div class="footer-actions">
+        <a href="contact.html" class="button primary" data-i18n="footer.ctaPrimary">
+          Schedule a Call
+        </a>
+        <a href="mailto:hello@mywebsite.com" class="button ghost">hello@mywebsite.com</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
